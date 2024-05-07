@@ -1,0 +1,181 @@
+.body-container{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-items: center;
+    justify-content: end;
+    height: 800px;
+    background-image:url("industry.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.body-container h2{
+    font-size: 2.5rem;
+    width: 97%;
+    text-align-last:left;
+    color: white;
+    
+}
+.body-second-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 246, 246);
+    align-items: left;
+    justify-content: left;
+    height: 600px;
+    margin-top: -20px;
+    margin-bottom:-30px;
+    padding-top: 1px;
+}
+
+.body-second-container h3{
+    font-size: 1.0rem;
+    width: 97%;
+    text-align-last:left;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 140px;
+}
+
+.body-second-container h1{
+    font-size: 2.0rem;
+    width: 97%;
+    text-align-last:left;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 120px;
+}
+
+.body-second-container h2{
+    font-size: 1.7rem;
+    width: 90%;
+    text-align-last:right;
+    color: rgb(0, 0, 0);
+}
+
+.btn-body{
+    width: 10%;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0px;
+    background-color: black;
+    color: white;
+    text-align-last: center;
+    justify-content: end;
+    align-items: flex-end;
+    position: relative;
+    left: 1120px;
+    top:20px;
+    
+
+}
+
+.btn-body-second{
+    width: 10%;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align-last: center;
+    justify-content: end;
+    align-items: flex-end;
+    position: relative;
+    left: 1320px;
+    bottom: 60px;
+    top: -39px;
+}
+
+.body-container-third{
+    background-color: rgb(216, 213, 213);
+    height: 400px;
+    margin-top: -26px;
+    margin-bottom: -22px;
+    padding-top: 100px;
+}
+
+.body-container-third h1{
+    font-size: 2.5rem;
+    width: 90%;
+    text-align-last:center;
+    color: black;
+}
+
+.body-container-fourth{
+    background-color: rgb(216, 213, 213);
+    height: 400px;
+}
+
+.body-container-fourth h1{
+    font-size: 2.0rem;
+    width: 97%;
+    text-align-last:left;
+    color: black;
+
+}
+
+.body-container-fourth h2{
+    font-size: 2.0rem;
+    width: 97%;
+    text-align-last: left;
+    color:gray ;
+
+}
+
+.btn-body-third{
+    width: 10%;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0px;
+    background-color: purple;
+    color: white;
+    text-align-last: center;
+    justify-content: left;
+    align-items: normal;
+}
+
+.body-container-fourth h3{
+    font-size: 2.0rem;
+    width: 97%;
+    text-align-last: right;
+    color: gray;
+    position: relative;
+    bottom: 190px;
+}
+
+footer{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    background-color:black;
+    height: 200px;
+    
+}
+
+footer h1{
+    font-size: 2.0rem;
+    width: 10%;
+    text-align-last: left;
+    color: white;
+}
+
+footer h3{
+    font-size: 1.0rem;
+    width: 100%;
+    text-align-last: left;
+    color: gray;
+    justify-content: left;
+    position: relative;
+    top: 50px;
+    right: 160px;
+
+}
